@@ -1,0 +1,11 @@
+body {
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#contact {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  font-size: 14px;
+}
