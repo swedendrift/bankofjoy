@@ -1,5 +1,20 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background-color: grey;
+}
+
+button {
+  padding: 14px 37px 14px 35px;
+  border: none;
+  background-color: #5170DD ;
+  color: white;
+  font-size: 13px;
+  border-radius: 50px;
 }
 
 #contact {
@@ -7,4 +22,41 @@ body {
   right: 40px;
   top: 30px;
   font-size: 14px;
+  font-weight: 200;
+}
+
+#button {
+  padding: 15px;
+}
+
+#buttondiv {
+  margin-top: 40px;
+}
+
+#container {
+  width: 100%;
+  position:relative;
+  top: 60px;
+  text-align: center;
+}
+
+#logo {
+  margin-top: 20px;
+  width: 200px;
+}
+
+#schedule {
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+}
+
+#tagline {
+  font-size: 42px;
+  color: white;
+  font-weight: 200;
+}
+
+#tel {
+  margin-right: 20px;
 }
