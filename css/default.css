@@ -5,12 +5,6 @@ a {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-image:
-  linear-gradient(
-    rgba(90, 97, 124, 0.82),
-    rgba(90, 97, 124, 0.82)),
-    url(imgs/background.jpg);
-  background-size: cover;
 }
 
 button {
@@ -19,16 +13,40 @@ button {
   background-color: #5170DD ;
   color: white;
   font-size: 13px;
+  font-weight: 100;
   border-radius: 50px;
 }
 
-#contact {
-  position: absolute;
-  right: 40px;
-  top: 30px;
-  font-size: 14px;
-  font-weight: 200;
+button:hover {
+  transform: scale(1.1);
 }
+
+h1 {
+  font-size: 44px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+html {
+  background:
+  linear-gradient(
+    rgba(61, 70, 100, 0.86),
+    rgba(61, 70, 100, 0.86)), url(imgs/background.jpg)
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+}
+
+  #contact {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    font-size: 14px;
+    font-weight: 200;
+  }
 
 #button {
   padding: 15px;
@@ -81,15 +99,11 @@ button {
 }
 
 #schedule {
-  font-size: 12px;
-  color: white;
+  font-size: 11px;
+  font-variant: small-caps;
+  color: #d4d4d8;
   font-weight: 200;
-}
-
-#tagline {
-  font-size: 42px;
-  color: white;
-  font-weight: 200;
+  letter-spacing: .35px;
 }
 
 #tel {
