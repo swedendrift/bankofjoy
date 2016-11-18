@@ -5,7 +5,12 @@ a {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-color: grey;
+  background-image:
+  linear-gradient(
+    rgba(90, 97, 124, 0.82),
+    rgba(90, 97, 124, 0.82)),
+    url(imgs/background.jpg);
+  background-size: cover;
 }
 
 button {
